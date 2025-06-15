@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>İletişim - Onur Bingöl</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-  <style>
-    body { font-family: 'Orbitron', sans-serif; background: #0d1117; color: #c9d1d9; margin: 0; }
-    header, footer { background: #0f0f0f; color: #00ffcc; text-align: center; padding: 20px; }
-    nav a { color: #00ffcc; margin: 0 15px; text-decoration: none; }
-    form { max-width: 600px; margin: 40px auto; background: #161b22; padding: 20px; border-radius: 10px; border: 1px solid #00ffcc; }
-    input, textarea { width: 100%; padding: 10px; margin: 10px 0; background: #0d1117; color: white; border: 1px solid #333; border-radius: 5px; }
-    button { padding: 10px 20px; background: #00ffcc; color: #0d1117; border: none; font-weight: bold; cursor: pointer; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Onur Bingöl</h1>
+    <img src="assets/images/logo.png" alt="Onur Bingöl Logo" style="max-width:180px; margin-bottom:10px;">
+    <h1>İletişim</h1>
     <nav>
       <a href="index.html">Anasayfa</a>
       <a href="about.html">Hakkımda</a>
@@ -26,28 +18,26 @@
     </nav>
   </header>
 
-  <main>
-    <h2 style="text-align:center; color:#00ffcc;">Benimle İletişime Geç</h2>
-    <form>
-      <form action="https://formsubmit.co/cyberage.world@gmail.com" method="POST">
-  <input type="hidden" name="_captcha" value="false">
-  <label for="name">Ad Soyad</label>
-  <input type="text" id="name" name="name" required>
+  <main style="max-width: 600px; margin: 50px auto;">
+    <form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_next" value="https://onurbingol.netlify.app/tesekkurler.html">
 
-  <label for="email">E-posta</label>
-  <input type="email" id="email" name="email" required>
+      <label for="name">Ad Soyad</label>
+      <input type="text" id="name" name="name" required>
 
-  <label for="message">Mesajınız</label>
-  <textarea id="message" name="message" rows="5" required></textarea>
+      <label for="email">E-posta</label>
+      <input type="email" id="email" name="email" required>
 
-  <button type="submit">Gönder</button>
-</form>
+      <label for="message">Mesajınız</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
 
+      <button type="submit">Gönder</button>
     </form>
   </main>
 
   <footer>
-    <p>&copy; 2025 Onur Bingöl. Cyber Güç Sizinle Olsun.</p>
+    <p>&copy; 2025 Onur Bingöl</p>
   </footer>
 </body>
 </html>
